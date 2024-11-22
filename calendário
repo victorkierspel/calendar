@@ -1,0 +1,13 @@
+import calendar
+
+def imprimir_calendario(ano, mes):
+ print(calendar.month(ano, mes))
+
+def main():
+ ano = int(input("Digite o ano: "))
+ mes = int(input("Digite o mês (1-12): "))
+
+ imprimir_calendario(ano, mes)
+
+if __name__ == "__main__":
+ main()
